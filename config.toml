@@ -1,0 +1,13 @@
+theme = "bright_nord"
+
+[editor]
+line-number = "relative"
+cursorline = true
+mouse = true
+bufferline = "always"
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"

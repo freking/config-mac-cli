@@ -1,0 +1,63 @@
+inherits = "nord"
+
+# ------------------------------------------------------------
+# Deep dark base
+# ------------------------------------------------------------
+
+"ui.background" = { bg = "#232832" }       # darker than Nord0
+"ui.text" = { fg = "#F4F8FF" }             # brighter foreground
+
+# ------------------------------------------------------------
+# Strong phosphor cursor
+# ------------------------------------------------------------
+
+"ui.cursor.primary" = { fg = "#232832", bg = "#8BE9FD" }
+"ui.cursorline.primary" = { bg = "#2E3440" }
+
+# ------------------------------------------------------------
+# High-visibility selection
+# ------------------------------------------------------------
+
+"ui.selection" = { bg = "#3B4252" }
+"ui.selection.primary" = { bg = "#5E81AC" }
+
+# ------------------------------------------------------------
+# Line numbers
+# ------------------------------------------------------------
+
+"ui.linenr" = { fg = "#7A88A6" }
+"ui.linenr.selected" = { fg = "#F4F8FF", modifiers = ["bold"] }
+
+# ------------------------------------------------------------
+# Bright phosphor comments (cyan glow)
+# ------------------------------------------------------------
+
+"comment" = { fg = "#7FDFFF", modifiers = ["italic"] }
+"comment.documentation" = { fg = "#6AD0FF", modifiers = ["italic"] }
+
+# ------------------------------------------------------------
+# Syntax — boosted saturation
+# ------------------------------------------------------------
+
+"keyword" = { fg = "#81AFFF", modifiers = ["bold"] }
+"type" = { fg = "#8FBCFF", modifiers = ["bold"] }
+"function" = { fg = "#88E0FF" }
+"string" = { fg = "#C6F7FF" }
+"constant" = { fg = "#FF9E7A" }
+"number" = { fg = "#FFD580" }
+
+# ------------------------------------------------------------
+# Diagnostics — clear and punchy
+# ------------------------------------------------------------
+
+"diagnostic.error" = { fg = "#FF6B6B", modifiers = ["bold"] }
+"diagnostic.warning" = { fg = "#FFD166", modifiers = ["bold"] }
+"diagnostic.info" = { fg = "#8BE9FD" }
+"diagnostic.hint" = { fg = "#A8E6CF" }
+
+# ------------------------------------------------------------
+# Statusline — glowing active bar
+# ------------------------------------------------------------
+
+"ui.statusline" = { fg = "#F4F8FF", bg = "#2E3440" }
+"ui.statusline.inactive" = { fg = "#D8DEE9", bg = "#232832" }
